@@ -1,11 +1,11 @@
 {
-  "name": "brunch-app",
-  "description": "Description",
-  "author": "Your Name",
+  "name": "Reactor.js",
+  "description": "Reactor.js",
+  "author": "Marat Khusnetdinov",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/khusnetdinov/reactor.js"
   },
   "scripts": {
     "development": "brunch watch --server",
