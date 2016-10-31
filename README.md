@@ -11,7 +11,7 @@
 - Linting with [Eslint-Brunch](https://github.com/brunch/eslint-brunch)
 
 ### Files structure
-``
+```
 ├── /app/                       # The source code of the application
 │   ├── /assets/                # Files in this folder just copy to public
 │   │   ├── /images/            # Images folder
@@ -44,7 +44,7 @@
 │── .editorconfig               # Global editor config
 │── .eslintrc.json              # Eslint config
 └── .gitignore                  # Git ignored files
-``
+```
 
 ### Commands
 
