@@ -9,7 +9,8 @@
   },
   "scripts": {
     "development": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "lint": "eslint ./app"
   },
   "dependencies": {},
   "devDependencies": {
@@ -20,6 +21,7 @@
     "brunch": "^2.0.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
+    "eslint-brunch": "^3.12.0",
     "hmr-brunch": "^0.1.1",
     "javascript-brunch": "^2.0.0",
     "uglify-js-brunch": "^2.0.0"
