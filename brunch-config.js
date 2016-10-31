@@ -19,6 +19,14 @@ module.exports = {
             'array-callback-return': 'warn'
           }
         }
+      },
+
+      sass: {
+        mode: 'native'
+      },
+
+      babel: {
+        presets: ['es2015', 'es2016', 'react']
       }
     }
   }

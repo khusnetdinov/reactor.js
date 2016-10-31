@@ -3,6 +3,26 @@
     "node": true,
     "es6": true
   },
+
+  "plugins": [
+    "react"
+  ],
+
+  "ecmaFeatures": {
+    "jsx": true
+  },
+
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "globals": {
+    "document": true
+  },
+
   "rules": {
     "block-spacing": [2, "always"],
     "brace-style": [2, "1tbs", {"allowSingleLine": true}],
@@ -29,7 +49,7 @@
     "no-sparse-arrays": 2,
     "no-unexpected-multiline": 2,
     "no-unreachable": 2,
-    "no-unused-vars": [2, {"varsIgnorePattern": "ignored"}],
+    "no-unused-vars": [1, {"varsIgnorePattern": "[React]"}],
     "valid-typeof": 2,
     "eqeqeq": [2, "allow-null"],
     "no-array-constructor": 2,
