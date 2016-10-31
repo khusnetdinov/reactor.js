@@ -9,6 +9,7 @@
 - Hot Module Reloading
 [hrm-brunch](https://github.com/brunch/hmr-brunch)
 - Linting with [Eslint-Brunch](https://github.com/brunch/eslint-brunch)
+- Flowtype controll with [Flow](https://flowtype.org/)
 
 ### Files structure
 ```
@@ -43,6 +44,7 @@
 │── LICENSE                     # License
 │── .editorconfig               # Global editor config
 │── .eslintrc.json              # Eslint config
+│── .flowconfig                 # Flow config
 └── .gitignore                  # Git ignored files
 ```
 
@@ -54,9 +56,11 @@
 
 `lint`        - Linting of code
 
+`flow`        - Check flow errors
+
 ## Requirements
 
-  You need to install [Node](https://nodejs.org/en/)
+  You need to install [Node](https://nodejs.org/en/),[Flow](https://flowtype.org/)
 
 ## Installation
 
