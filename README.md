@@ -36,6 +36,8 @@
 │   ├── favicon.ico             # Project favicon
 │   └── index.html              # Builded index page
 │
+├── /build/                     # Production files
+│
 ├── /node_modules/              # Node (Brunch) 3rd-party libraries
 │
 │── package.json                # The list of Node (Brunch) 3rd party libraries

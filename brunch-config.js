@@ -5,6 +5,11 @@ module.exports = {
       port: 4000
     },
 
+    paths: {
+      public: 'build',
+      watched: ['app']
+    },
+
     files: {
       javascripts: {joinTo: 'javascript/application.js'},
       stylesheets: {joinTo: 'stylesheets/application.css'},
@@ -27,6 +32,12 @@ module.exports = {
 
       babel: {
         presets: ['es2015', 'es2016', 'react']
+      }
+    },
+
+    modules: {
+      autoRequire: {
+        'javascript/application.js': ['javascript/application']
       }
     }
   }
