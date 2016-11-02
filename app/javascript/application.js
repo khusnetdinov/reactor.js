@@ -1,11 +1,10 @@
-import ReactDOM from 'react-dom';
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-import Application from './components/Application';
+import ApplicationWithRoutes from './routes';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const application = (<Application />);
-  const element = document.querySelector('#application');
+  const toElement = document.querySelector('#application');
 
-  ReactDOM.render(application, element);
+  ReactDOM.render(ApplicationWithRoutes, toElement);
 });

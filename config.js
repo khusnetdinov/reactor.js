@@ -1,4 +1,3 @@
-// See http://brunch.io for documentation.
 module.exports = {
   config: {
     server: {
@@ -38,6 +37,14 @@ module.exports = {
     modules: {
       autoRequire: {
         'javascript/application.js': ['javascript/application']
+      }
+    },
+
+    overrides: {
+      production: {
+      },
+
+      test: {
       }
     }
   }
