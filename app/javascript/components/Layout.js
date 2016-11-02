@@ -6,6 +6,6 @@ class Layout extends React.Component {
       <div>Layout</div>
     );
   }
-};
+}
 
 export default Layout;
