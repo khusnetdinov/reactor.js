@@ -1,5 +1,5 @@
-# reactor.js
-[WIP]
+# Reactor.js
+Little kit for react application.
 
 ## Features
 
@@ -11,6 +11,8 @@
 - Linting with [Eslint-Brunch](https://github.com/brunch/eslint-brunch)
 - Flowtype controll with [Flow](https://flowtype.org/)
 - [Mocha](https://mochajs.org/) for testing Tests
+- [React](https://facebook.github.io/react/)
+- [React-Router](https://github.com/ReactTraining/react-router)
 
 ### Files structure
 ```
