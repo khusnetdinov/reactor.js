@@ -1,5 +1,5 @@
 # Reactor.js
-Little kit for react application.
+Starter kit for web application build with Brunch, Sass, React, Mocha.
 
 ## Features
 

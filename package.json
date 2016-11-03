@@ -1,6 +1,6 @@
 {
   "name": "Reactor.js",
-  "description": "Reactor.js",
+  "description": "Starter kit for web application build with Brunch, Sass, React, Mocha.",
   "author": "Marat Khusnetdinov",
   "version": "0.1.0",
   "repository": {
