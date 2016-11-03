@@ -10,6 +10,7 @@
 [hrm-brunch](https://github.com/brunch/hmr-brunch)
 - Linting with [Eslint-Brunch](https://github.com/brunch/eslint-brunch)
 - Flowtype controll with [Flow](https://flowtype.org/)
+- [Mocha](https://mochajs.org/) for testing Tests
 
 ### Files structure
 ```
@@ -36,7 +37,7 @@
 │   ├── favicon.ico             # Project favicon
 │   └── index.html              # Builded index page
 │
-├── /build/                     # Production files
+├── /test/                      # Test files files
 │
 ├── /node_modules/              # Node (Brunch) 3rd-party libraries
 │
@@ -44,6 +45,7 @@
 │── brunch-config.js            # Brunch config for project
 │── README.md                   # Project description
 │── LICENSE                     # License
+│── .bebelrc                    # Presets for babel-brunch (Need for test)
 │── .editorconfig               # Global editor config
 │── .eslintrc.json              # Eslint config
 │── .flowconfig                 # Flow config
@@ -60,9 +62,13 @@
 
 `flow`        - Check flow errors
 
+`test`        - Run all test
+
 ## Requirements
 
-  You need to install [Node](https://nodejs.org/en/),[Flow](https://flowtype.org/)
+  - [Node](https://nodejs.org/en/)
+  - [Flow](https://flowtype.org/)
+  - [Eslinth](http://eslint.org/)
 
 ## Installation
 

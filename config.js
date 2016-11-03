@@ -5,7 +5,7 @@ module.exports = {
     },
 
     paths: {
-      public: 'build',
+      public: 'public',
       watched: ['app']
     },
 
