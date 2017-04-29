@@ -1,4 +1,4 @@
-# Reactor.js
+# Reactor.js [![Build Status](https://travis-ci.org/khusnetdinov/reactor.js.svg?branch=master)](https://travis-ci.org/khusnetdinov/reactor.js)
 Starter kit for web application build with Brunch, Sass, React, Mocha.
 
 ## Features
