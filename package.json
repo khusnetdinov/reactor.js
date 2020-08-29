@@ -33,7 +33,7 @@
     "flow-bin": "^0.95.1",
     "hmr-brunch": "^0.1.1",
     "javascript-brunch": "^2.0.0",
-    "mocha": "^5.2.0",
+    "mocha": "^8.1.3",
     "sass-brunch": "^2.7.0",
     "uglify-js-brunch": "^2.0.0"
   }
