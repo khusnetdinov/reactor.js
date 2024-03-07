@@ -30,7 +30,7 @@
     "css-brunch": "^2.10.0",
     "eslint-brunch": "^3.12.0",
     "eslint-plugin-react": "^7.12.3",
-    "flow-bin": "^0.162.1",
+    "flow-bin": "^0.230.0",
     "hmr-brunch": "^0.1.1",
     "javascript-brunch": "^2.0.0",
     "mocha": "^9.1.3",
